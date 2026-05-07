@@ -93,10 +93,12 @@ export function App() {
       ),
     [activeGenerators, selectedGroup]
   );
+  const shouldFetchLatestCommit = window.location.hostname === "baditaflorin.github.io";
 
   const latestCommit = useQuery({
     queryKey: ["latestCommit"],
-    queryFn: fetchLatestCommit
+    queryFn: fetchLatestCommit,
+    enabled: shouldFetchLatestCommit
   });
 
   useEffect(() => {
@@ -211,7 +213,7 @@ export function App() {
           <span>v{appVersion}</span>
           <span className="inline-flex items-center gap-1">
             <GitCommit className="h-3.5 w-3.5" />
-            build {buildCommit} on {buildBranch}
+            build {buildCommit} · {buildBranch}
           </span>
           <span>{new Date(buildDate).toLocaleString()}</span>
           <span>
@@ -222,6 +224,8 @@ export function App() {
               </a>
             ) : latestCommit.isError ? (
               "unavailable"
+            ) : !shouldFetchLatestCommit ? (
+              "live on GitHub Pages"
             ) : (
               "checking"
             )}

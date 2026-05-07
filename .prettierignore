@@ -6,7 +6,7 @@ docs/404.html
 docs/manifest.webmanifest
 docs/sw.js
 docs/icon.svg
+src/data/group-catalog.json
 test-results/**
 tmp/**
 public/wasm/*.wasm
-

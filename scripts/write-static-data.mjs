@@ -14,8 +14,8 @@ writeFileSync(
   `${JSON.stringify(
     {
       schemaVersion: "group-catalog/v1",
-      generatedAt: new Date().toISOString(),
-      sourceCommit: process.env.GIT_COMMIT ?? "local",
+      generatedAt: "2026-05-08T00:00:00.000Z",
+      sourceCommit: process.env.VITE_GIT_COMMIT ?? "static",
       artifact: "groups.json"
     },
     null,
