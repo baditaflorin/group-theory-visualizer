@@ -1,0 +1,9 @@
+title = "Group Theory Visualizer gitleaks config"
+
+[allowlist]
+description = "Allow public documentation URLs"
+paths = [
+  '''docs/.*''',
+  '''README.md'''
+]
+

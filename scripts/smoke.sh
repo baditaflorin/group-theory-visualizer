@@ -3,10 +3,14 @@ set -euo pipefail
 
 npm run build
 
-PORT="${PORT:-4173}"
+PORT="${PORT:-48173}"
 BASE_URL="http://127.0.0.1:${PORT}/group-theory-visualizer/"
 
-npx http-server docs -p "${PORT}" -c-1 >/tmp/group-theory-visualizer-smoke.log 2>&1 &
+rm -rf tmp/pages-preview
+mkdir -p tmp/pages-preview
+ln -s "$(pwd)/docs" tmp/pages-preview/group-theory-visualizer
+
+npx http-server tmp/pages-preview -p "${PORT}" -c-1 >/tmp/group-theory-visualizer-smoke.log 2>&1 &
 SERVER_PID=$!
 
 cleanup() {
@@ -22,4 +26,3 @@ for _ in $(seq 1 40); do
 done
 
 PLAYWRIGHT_BASE_URL="${BASE_URL}" npx playwright test
-

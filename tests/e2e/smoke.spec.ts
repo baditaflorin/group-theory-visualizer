@@ -6,7 +6,7 @@ test("loads the visualizer and completes a happy path", async ({ page }) => {
     if (message.type() === "error") consoleErrors.push(message.text());
   });
 
-  await page.goto("/");
+  await page.goto("./");
   await expect(page.getByRole("heading", { name: "Group Theory Visualizer" })).toBeVisible();
   await expect(page.getByRole("link", { name: "Star repo" })).toHaveAttribute(
     "href",
@@ -24,7 +24,7 @@ test("loads the visualizer and completes a happy path", async ({ page }) => {
 
   await page.getByRole("button", { name: "Table" }).click();
   await expect(page.getByRole("heading", { name: "Multiplication table" })).toBeVisible();
-  await expect(page.getByText("-k")).toBeVisible();
+  await expect(page.getByRole("button", { name: "-k" }).first()).toBeVisible();
 
   await page.getByRole("button", { name: "3D" }).click();
   await expect(page.locator("canvas")).toBeVisible({ timeout: 10_000 });

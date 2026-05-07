@@ -6,7 +6,16 @@ import tseslint from "typescript-eslint";
 import prettier from "eslint-config-prettier";
 
 export default tseslint.config(
-  { ignores: ["docs/assets/**", "docs/wasm/**", "docs/data/**", "node_modules/**", "coverage/**"] },
+  {
+    ignores: [
+      "docs/assets/**",
+      "docs/wasm/**",
+      "docs/data/**",
+      "docs/sw.js",
+      "node_modules/**",
+      "coverage/**"
+    ]
+  },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
