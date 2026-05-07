@@ -19,4 +19,3 @@ We pledge to make participation in this project welcoming, respectful, and haras
 ## Enforcement
 
 Project maintainers may remove comments, issues, pull requests, or contributors that violate this code of conduct.
-

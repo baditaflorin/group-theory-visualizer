@@ -34,4 +34,3 @@ The schema version is `group-catalog/v1` and each group contains:
 
 - Fetch data from GitHub Releases. Rejected because the catalog is tiny.
 - Compute every group from presentations in the browser. Rejected for v1 because curated groups give a faster, more reliable first experience.
-

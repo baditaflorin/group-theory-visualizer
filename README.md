@@ -21,4 +21,3 @@ make smoke
 This project targets GitHub Pages as a pure static deployment. Runtime computation happens in the browser with TypeScript, WebAssembly, Three.js, and GraphViz WASM.
 
 See the ADRs in `docs/adr/` and the architecture notes in `docs/architecture.md`.
-

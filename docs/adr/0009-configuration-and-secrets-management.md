@@ -24,4 +24,3 @@ The app never embeds API keys, tokens, passwords, private keys, or internal host
 
 - Hosted LLM API key in frontend. Rejected because frontend secrets are not secrets.
 - Proxy backend for LLM calls. Rejected because it would force Mode C for a non-core v1 feature.
-

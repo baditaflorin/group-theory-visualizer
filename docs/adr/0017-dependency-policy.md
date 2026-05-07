@@ -31,4 +31,3 @@ Use production-ready libraries with active maintenance and clear value:
 
 - Custom graph layout. Rejected because GraphViz already handles this well.
 - Custom 3D renderer. Rejected because Three.js is the proven browser 3D path.
-

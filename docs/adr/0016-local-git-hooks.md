@@ -29,4 +29,3 @@ Hooks:
 
 - Lefthook. Rejected because plain hooks are enough for this project.
 - GitHub Actions. Rejected by project constraint.
-

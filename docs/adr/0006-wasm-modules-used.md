@@ -27,4 +27,3 @@ Avoid WASM features that require cross-origin isolation. Use plain `WebAssembly.
 
 - Compile full GAP to WASM. Rejected for v1 due to size and build complexity.
 - Use only TypeScript. Rejected because the product pitch specifically calls for a WASM computation subset.
-

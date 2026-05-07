@@ -25,4 +25,3 @@ All v1 runtime behavior runs in the browser. Finite-group computations run in Ty
 
 - Mode B: GitHub Pages plus pre-built data. Rejected for v1 because the seed group catalog is small and deterministic.
 - Mode C: Pages frontend plus Docker backend. Rejected because v1 has no secrets, shared writes, cross-device sync, or runtime-only data.
-

@@ -22,4 +22,3 @@ Do not create a Go or scheduled data-generation pipeline in v1. The build writes
 
 - Dedicated Go generator. Rejected because there are no external inputs.
 - Release-hosted artifacts. Rejected because the artifact is small enough to commit.
-

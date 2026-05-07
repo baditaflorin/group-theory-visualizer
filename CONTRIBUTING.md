@@ -23,4 +23,3 @@ Use Conventional Commits:
 ## Pull Requests
 
 Keep changes focused, include tests for behavior changes, and run `make lint`, `make test`, and `make smoke` before publishing.
-

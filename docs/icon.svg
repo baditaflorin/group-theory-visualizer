@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Group Theory Visualizer icon">
+  <rect width="128" height="128" rx="18" fill="#101820"/>
+  <circle cx="64" cy="64" r="34" fill="none" stroke="#f7f3e8" stroke-width="8"/>
+  <circle cx="64" cy="30" r="10" fill="#70d6ff"/>
+  <circle cx="94" cy="80" r="10" fill="#f45b69"/>
+  <circle cx="34" cy="80" r="10" fill="#2fbf71"/>
+  <path d="M64 30 94 80H34Z" fill="none" stroke="#f5a623" stroke-width="6" stroke-linejoin="round"/>
+</svg>
+

@@ -25,4 +25,3 @@ Vite builds to `docs/` with base path `/group-theory-visualizer/`, hashed assets
 
 - `gh-pages` branch. Rejected because it adds branch synchronization overhead.
 - Root publishing from `main`. Rejected because source files and published files should remain visually separate.
-

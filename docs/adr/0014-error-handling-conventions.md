@@ -22,4 +22,3 @@ Use typed `Result`-style helpers for recoverable logic failures and React error 
 
 - Throw exceptions everywhere. Rejected because expected validation states are part of the UI.
 - Silent fallbacks. Rejected because users need to know when a visualization could not load.
-

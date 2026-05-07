@@ -23,4 +23,3 @@ Use `localStorage` for small preference state.
 - IndexedDB. Rejected because the state is small and structured simply.
 - OPFS. Rejected because no large user-generated files are stored.
 - Server persistence. Rejected because v1 intentionally avoids auth and backend infrastructure.
-

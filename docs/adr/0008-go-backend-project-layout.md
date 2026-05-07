@@ -21,4 +21,3 @@ Skip the Go backend entirely in v1.
 ## Alternatives Considered
 
 - Add an unused Go skeleton. Rejected because it would create maintenance surface without product value.
-

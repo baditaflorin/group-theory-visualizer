@@ -28,4 +28,3 @@ Use a client-only modular architecture:
 
 - Single-file prototype. Rejected because it would make tests and future group additions painful.
 - Full domain package split. Rejected for v1 because one static app repo is simpler.
-

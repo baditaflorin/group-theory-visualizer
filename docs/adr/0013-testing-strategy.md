@@ -27,4 +27,3 @@ Use:
 
 - Manual-only QA. Rejected because visual apps still need repeatable checks.
 - Browser snapshot testing for every state. Rejected for v1 because it would slow iteration.
-

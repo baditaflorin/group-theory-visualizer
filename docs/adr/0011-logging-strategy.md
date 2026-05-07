@@ -21,4 +21,3 @@ Use minimal browser console output in development only. Production errors are sh
 ## Alternatives Considered
 
 - Client log beacon. Rejected because it adds analytics-like tracking and a network dependency.
-

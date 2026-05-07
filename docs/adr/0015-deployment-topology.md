@@ -21,4 +21,3 @@ Deploy only through GitHub Pages at https://baditaflorin.github.io/group-theory-
 ## Alternatives Considered
 
 - Docker backend on port 25342. Rejected because there is no runtime API in v1.
-

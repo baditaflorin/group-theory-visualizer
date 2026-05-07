@@ -9,4 +9,3 @@ The optional LLM panel sends prompts only to the endpoint entered by the user, f
 Repository metadata, such as the latest commit, is fetched from the public GitHub API:
 
 https://api.github.com/repos/baditaflorin/group-theory-visualizer/commits/main
-

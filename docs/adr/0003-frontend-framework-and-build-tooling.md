@@ -24,4 +24,3 @@ Use React, TypeScript, Vite, Vitest, Playwright, ESLint, Prettier, and Tailwind 
 - Vanilla TypeScript. Rejected because interaction complexity is high enough to benefit from components.
 - Next.js. Rejected because static GitHub Pages hosting does not need a server-oriented framework.
 - Svelte. Viable, but React has broader ecosystem support for testing and visualization examples.
-

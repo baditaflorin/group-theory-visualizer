@@ -24,4 +24,3 @@ Expose local, user-visible health signals instead: current version, embedded bui
 
 - Plausible analytics. Rejected for v1 to keep privacy posture simple.
 - Self-hosted beacon. Rejected because it would require runtime infrastructure.
-

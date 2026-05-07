@@ -25,4 +25,3 @@ Revert the commit that changed the published `docs/` assets, then push `main`.
 If a custom domain is added later, create `docs/CNAME` containing the domain and configure DNS with GitHub Pages according to:
 
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
-
