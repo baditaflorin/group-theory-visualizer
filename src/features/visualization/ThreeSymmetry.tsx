@@ -64,6 +64,7 @@ function mountScene(
 
   const camera = new THREE.PerspectiveCamera(48, 1, 0.1, 100);
   camera.position.set(4.2, 3.4, 6.2);
+  camera.lookAt(0, 0, 0);
 
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
